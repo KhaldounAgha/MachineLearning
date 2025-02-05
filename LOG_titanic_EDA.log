@@ -1,0 +1,1441 @@
+2024-11-28 17:00:47 - INFO - Starting dataset loading process...
+2024-11-28 17:00:47 - INFO - File found at: ./data/titanic.csv.
+2024-11-28 17:00:47 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-28 17:00:47 - INFO - Dataset loaded successfully.
+2024-11-28 17:01:11 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-28 17:01:11 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-28 17:01:38 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-28 17:01:38 - INFO - Memory usage of each column:
+2024-11-28 17:01:38 - INFO - Index: 132.00 bytes
+2024-11-28 17:01:38 - INFO - PassengerId: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - Survived: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - Pclass: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - Name: 31970.00 bytes
+2024-11-28 17:01:38 - INFO - Sex: 22458.00 bytes
+2024-11-28 17:01:38 - INFO - Age: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - SibSp: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - Parch: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - Ticket: 23356.00 bytes
+2024-11-28 17:01:38 - INFO - Fare: 3344.00 bytes
+2024-11-28 17:01:38 - INFO - Cabin: 15294.00 bytes
+2024-11-28 17:01:38 - INFO - Embarked: 20900.00 bytes
+2024-11-28 17:01:46 - INFO - The data type of each column in the dataset:
+2024-11-28 17:04:08 - INFO - The data type of each column in the dataset:
+2024-11-28 17:04:08 - INFO - PassengerId: int64
+2024-11-28 17:04:08 - INFO - Survived: int64
+2024-11-28 17:04:08 - INFO - Pclass: int64
+2024-11-28 17:04:08 - INFO - Name: object
+2024-11-28 17:04:08 - INFO - Sex: object
+2024-11-28 17:04:08 - INFO - Age: float64
+2024-11-28 17:04:08 - INFO - SibSp: int64
+2024-11-28 17:04:08 - INFO - Parch: int64
+2024-11-28 17:04:08 - INFO - Ticket: object
+2024-11-28 17:04:08 - INFO - Fare: float64
+2024-11-28 17:04:08 - INFO - Cabin: object
+2024-11-28 17:04:08 - INFO - Embarked: object
+2024-11-28 17:23:07 - INFO - Missing values in the dataset:
+2024-11-28 17:23:07 - INFO - PassengerId: 0 missing values
+2024-11-28 17:23:07 - INFO - Survived: 0 missing values
+2024-11-28 17:23:07 - INFO - Pclass: 0 missing values
+2024-11-28 17:23:07 - INFO - Name: 0 missing values
+2024-11-28 17:23:07 - INFO - Sex: 0 missing values
+2024-11-28 17:23:07 - INFO - Age: 86 missing values
+2024-11-28 17:23:07 - INFO - SibSp: 0 missing values
+2024-11-28 17:23:07 - INFO - Parch: 0 missing values
+2024-11-28 17:23:07 - INFO - Ticket: 0 missing values
+2024-11-28 17:23:07 - INFO - Fare: 1 missing values
+2024-11-28 17:23:07 - INFO - Cabin: 327 missing values
+2024-11-28 17:23:07 - INFO - Embarked: 0 missing values
+2024-11-28 22:20:40 - INFO - Missing values in the dataset:
+2024-11-28 22:20:40 - INFO - PassengerId: 0
+2024-11-28 22:20:40 - INFO - Survived: 0
+2024-11-28 22:20:40 - INFO - Pclass: 0
+2024-11-28 22:20:40 - INFO - Name: 0
+2024-11-28 22:20:40 - INFO - Sex: 0
+2024-11-28 22:20:40 - INFO - Age: 86
+2024-11-28 22:20:40 - INFO - SibSp: 0
+2024-11-28 22:20:40 - INFO - Parch: 0
+2024-11-28 22:20:40 - INFO - Ticket: 0
+2024-11-28 22:20:40 - INFO - Fare: 1
+2024-11-28 22:20:40 - INFO - Cabin: 327
+2024-11-28 22:20:40 - INFO - Embarked: 0
+2024-11-28 22:24:57 - INFO - Missing values in the dataset:
+2024-11-28 22:24:57 - INFO - PassengerId: 	0
+2024-11-28 22:24:57 - INFO - Survived: 	0
+2024-11-28 22:24:57 - INFO - Pclass: 	0
+2024-11-28 22:24:57 - INFO - Name: 	0
+2024-11-28 22:24:57 - INFO - Sex: 	0
+2024-11-28 22:24:57 - INFO - Age: 	86
+2024-11-28 22:24:57 - INFO - SibSp: 	0
+2024-11-28 22:24:57 - INFO - Parch: 	0
+2024-11-28 22:24:57 - INFO - Ticket: 	0
+2024-11-28 22:24:57 - INFO - Fare: 	1
+2024-11-28 22:24:57 - INFO - Cabin: 	327
+2024-11-28 22:24:57 - INFO - Embarked: 	0
+2024-11-28 22:25:20 - INFO - Missing values in the dataset:
+2024-11-28 22:25:20 - INFO - PassengerId: 		0
+2024-11-28 22:25:20 - INFO - Survived: 		0
+2024-11-28 22:25:20 - INFO - Pclass: 		0
+2024-11-28 22:25:20 - INFO - Name: 		0
+2024-11-28 22:25:20 - INFO - Sex: 		0
+2024-11-28 22:25:20 - INFO - Age: 		86
+2024-11-28 22:25:20 - INFO - SibSp: 		0
+2024-11-28 22:25:20 - INFO - Parch: 		0
+2024-11-28 22:25:20 - INFO - Ticket: 		0
+2024-11-28 22:25:20 - INFO - Fare: 		1
+2024-11-28 22:25:20 - INFO - Cabin: 		327
+2024-11-28 22:25:20 - INFO - Embarked: 		0
+2024-11-28 22:25:30 - INFO - Missing values in the dataset:
+2024-11-28 22:25:30 - INFO - PassengerId: 	0
+2024-11-28 22:25:30 - INFO - Survived: 	0
+2024-11-28 22:25:30 - INFO - Pclass: 	0
+2024-11-28 22:25:30 - INFO - Name: 	0
+2024-11-28 22:25:30 - INFO - Sex: 	0
+2024-11-28 22:25:30 - INFO - Age: 	86
+2024-11-28 22:25:30 - INFO - SibSp: 	0
+2024-11-28 22:25:30 - INFO - Parch: 	0
+2024-11-28 22:25:30 - INFO - Ticket: 	0
+2024-11-28 22:25:30 - INFO - Fare: 	1
+2024-11-28 22:25:30 - INFO - Cabin: 	327
+2024-11-28 22:25:30 - INFO - Embarked: 	0
+2024-11-28 22:25:44 - INFO - Missing values in the dataset:
+2024-11-28 22:25:44 - INFO - PassengerId:  	0
+2024-11-28 22:25:44 - INFO - Survived:  	0
+2024-11-28 22:25:44 - INFO - Pclass:  	0
+2024-11-28 22:25:44 - INFO - Name:  	0
+2024-11-28 22:25:44 - INFO - Sex:  	0
+2024-11-28 22:25:44 - INFO - Age:  	86
+2024-11-28 22:25:44 - INFO - SibSp:  	0
+2024-11-28 22:25:44 - INFO - Parch:  	0
+2024-11-28 22:25:44 - INFO - Ticket:  	0
+2024-11-28 22:25:44 - INFO - Fare:  	1
+2024-11-28 22:25:44 - INFO - Cabin:  	327
+2024-11-28 22:25:44 - INFO - Embarked:  	0
+2024-11-28 22:26:01 - INFO - Missing values in the dataset:
+2024-11-28 22:26:01 - INFO - PassengerId:   	0
+2024-11-28 22:26:01 - INFO - Survived:   	0
+2024-11-28 22:26:01 - INFO - Pclass:   	0
+2024-11-28 22:26:01 - INFO - Name:   	0
+2024-11-28 22:26:01 - INFO - Sex:   	0
+2024-11-28 22:26:01 - INFO - Age:   	86
+2024-11-28 22:26:01 - INFO - SibSp:   	0
+2024-11-28 22:26:01 - INFO - Parch:   	0
+2024-11-28 22:26:01 - INFO - Ticket:   	0
+2024-11-28 22:26:01 - INFO - Fare:   	1
+2024-11-28 22:26:01 - INFO - Cabin:   	327
+2024-11-28 22:26:01 - INFO - Embarked:   	0
+2024-11-28 22:26:05 - INFO - Missing values in the dataset:
+2024-11-28 22:26:05 - INFO - PassengerId:  	0
+2024-11-28 22:26:05 - INFO - Survived:  	0
+2024-11-28 22:26:05 - INFO - Pclass:  	0
+2024-11-28 22:26:05 - INFO - Name:  	0
+2024-11-28 22:26:05 - INFO - Sex:  	0
+2024-11-28 22:26:05 - INFO - Age:  	86
+2024-11-28 22:26:05 - INFO - SibSp:  	0
+2024-11-28 22:26:05 - INFO - Parch:  	0
+2024-11-28 22:26:06 - INFO - Ticket:  	0
+2024-11-28 22:26:06 - INFO - Fare:  	1
+2024-11-28 22:26:06 - INFO - Cabin:  	327
+2024-11-28 22:26:06 - INFO - Embarked:  	0
+2024-11-28 22:26:09 - INFO - Missing values in the dataset:
+2024-11-28 22:26:09 - INFO - PassengerId: 	0
+2024-11-28 22:26:09 - INFO - Survived: 	0
+2024-11-28 22:26:09 - INFO - Pclass: 	0
+2024-11-28 22:26:09 - INFO - Name: 	0
+2024-11-28 22:26:09 - INFO - Sex: 	0
+2024-11-28 22:26:09 - INFO - Age: 	86
+2024-11-28 22:26:09 - INFO - SibSp: 	0
+2024-11-28 22:26:09 - INFO - Parch: 	0
+2024-11-28 22:26:09 - INFO - Ticket: 	0
+2024-11-28 22:26:09 - INFO - Fare: 	1
+2024-11-28 22:26:09 - INFO - Cabin: 	327
+2024-11-28 22:26:09 - INFO - Embarked: 	0
+2024-11-28 22:26:27 - INFO - The data type of each column in the dataset:
+2024-11-28 22:26:27 - INFO - PassengerId: 	int64
+2024-11-28 22:26:27 - INFO - Survived: 	int64
+2024-11-28 22:26:27 - INFO - Pclass: 	int64
+2024-11-28 22:26:27 - INFO - Name: 	object
+2024-11-28 22:26:27 - INFO - Sex: 	object
+2024-11-28 22:26:27 - INFO - Age: 	float64
+2024-11-28 22:26:27 - INFO - SibSp: 	int64
+2024-11-28 22:26:27 - INFO - Parch: 	int64
+2024-11-28 22:26:27 - INFO - Ticket: 	object
+2024-11-28 22:26:28 - INFO - Fare: 	float64
+2024-11-28 22:26:28 - INFO - Cabin: 	object
+2024-11-28 22:26:28 - INFO - Embarked: 	object
+2024-11-28 22:27:08 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-28 22:27:08 - INFO - Memory usage of each column:
+2024-11-28 22:27:08 - INFO - Index:	 132.00 bytes
+2024-11-28 22:27:08 - INFO - PassengerId:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - Survived:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - Pclass:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - Name:	 31970.00 bytes
+2024-11-28 22:27:08 - INFO - Sex:	 22458.00 bytes
+2024-11-28 22:27:08 - INFO - Age:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - SibSp:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - Parch:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - Ticket:	 23356.00 bytes
+2024-11-28 22:27:08 - INFO - Fare:	 3344.00 bytes
+2024-11-28 22:27:08 - INFO - Cabin:	 15294.00 bytes
+2024-11-28 22:27:08 - INFO - Embarked:	 20900.00 bytes
+2024-11-28 22:27:12 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-28 22:27:12 - INFO - Memory usage of each column:
+2024-11-28 22:27:12 - INFO - Index: 	 132.00 bytes
+2024-11-28 22:27:12 - INFO - PassengerId: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - Survived: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - Pclass: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - Name: 	 31970.00 bytes
+2024-11-28 22:27:12 - INFO - Sex: 	 22458.00 bytes
+2024-11-28 22:27:12 - INFO - Age: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - SibSp: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - Parch: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - Ticket: 	 23356.00 bytes
+2024-11-28 22:27:12 - INFO - Fare: 	 3344.00 bytes
+2024-11-28 22:27:12 - INFO - Cabin: 	 15294.00 bytes
+2024-11-28 22:27:12 - INFO - Embarked: 	 20900.00 bytes
+2024-11-28 22:27:17 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-28 22:27:17 - INFO - Memory usage of each column:
+2024-11-28 22:27:17 - INFO - Index: 	132.00 bytes
+2024-11-28 22:27:17 - INFO - PassengerId: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - Survived: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - Pclass: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - Name: 	31970.00 bytes
+2024-11-28 22:27:17 - INFO - Sex: 	22458.00 bytes
+2024-11-28 22:27:17 - INFO - Age: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - SibSp: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - Parch: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - Ticket: 	23356.00 bytes
+2024-11-28 22:27:17 - INFO - Fare: 	3344.00 bytes
+2024-11-28 22:27:17 - INFO - Cabin: 	15294.00 bytes
+2024-11-28 22:27:17 - INFO - Embarked: 	20900.00 bytes
+2024-11-28 22:30:44 - INFO - Missing values in the dataset:
+2024-11-28 22:30:44 - INFO - PassengerId: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Survived: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Pclass: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Name: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Sex: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Age: 	86 (20.57%)
+2024-11-28 22:30:44 - INFO - SibSp: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Parch: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Ticket: 	0 (0.00%)
+2024-11-28 22:30:44 - INFO - Fare: 	1 (0.24%)
+2024-11-28 22:30:44 - INFO - Cabin: 	327 (78.23%)
+2024-11-28 22:30:44 - INFO - Embarked: 	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Missing values in the dataset:
+2024-11-28 22:36:57 - INFO - PassengerId:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Survived:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Pclass:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Name:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Sex:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Age:	86 (20.57%)
+2024-11-28 22:36:57 - INFO - SibSp:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Parch:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Ticket:	0 (0.00%)
+2024-11-28 22:36:57 - INFO - Fare:	1 (0.24%)
+2024-11-28 22:36:57 - INFO - Cabin:	327 (78.23%)
+2024-11-28 22:36:57 - INFO - Embarked:	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Missing values in the dataset:
+2024-11-28 22:37:11 - INFO - PassengerId:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Survived:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Pclass:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Name:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Sex:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Age:  	86 (20.57%)
+2024-11-28 22:37:11 - INFO - SibSp:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Parch:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Ticket:  	0 (0.00%)
+2024-11-28 22:37:11 - INFO - Fare:  	1 (0.24%)
+2024-11-28 22:37:11 - INFO - Cabin:  	327 (78.23%)
+2024-11-28 22:37:11 - INFO - Embarked:  	0 (0.00%)
+2024-11-28 22:37:24 - INFO - Missing values in the dataset:
+2024-11-28 22:37:24 - INFO - PassengerId:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Survived:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Pclass:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Name:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Sex:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Age:  	86 	(20.57%)
+2024-11-28 22:37:24 - INFO - SibSp:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Parch:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Ticket:  	0 	(0.00%)
+2024-11-28 22:37:24 - INFO - Fare:  	1 	(0.24%)
+2024-11-28 22:37:24 - INFO - Cabin:  	327 	(78.23%)
+2024-11-28 22:37:24 - INFO - Embarked:  	0 	(0.00%)
+2024-11-28 22:37:29 - INFO - Missing values in the dataset:
+2024-11-28 22:37:29 - INFO - PassengerId:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Survived:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Pclass:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Name:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Sex:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Age:  	86 	t(20.57%)
+2024-11-28 22:37:29 - INFO - SibSp:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Parch:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Ticket:  	0 	t(0.00%)
+2024-11-28 22:37:29 - INFO - Fare:  	1 	t(0.24%)
+2024-11-28 22:37:29 - INFO - Cabin:  	327 	t(78.23%)
+2024-11-28 22:37:29 - INFO - Embarked:  	0 	t(0.00%)
+2024-11-28 22:37:35 - INFO - Missing values in the dataset:
+2024-11-28 22:37:35 - INFO - PassengerId:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Survived:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Pclass:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Name:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Sex:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Age:  	86 	(20.57%)
+2024-11-28 22:37:35 - INFO - SibSp:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Parch:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Ticket:  	0 	(0.00%)
+2024-11-28 22:37:35 - INFO - Fare:  	1 	(0.24%)
+2024-11-28 22:37:35 - INFO - Cabin:  	327 	(78.23%)
+2024-11-28 22:37:35 - INFO - Embarked:  	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Missing values in the dataset:
+2024-11-28 22:37:41 - INFO - PassengerId: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Survived: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Pclass: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Name: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Sex: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Age: 	86 	(20.57%)
+2024-11-28 22:37:41 - INFO - SibSp: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Parch: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Ticket: 	0 	(0.00%)
+2024-11-28 22:37:41 - INFO - Fare: 	1 	(0.24%)
+2024-11-28 22:37:41 - INFO - Cabin: 	327 	(78.23%)
+2024-11-28 22:37:41 - INFO - Embarked: 	0 	(0.00%)
+2024-11-28 22:37:55 - INFO - Missing values in the dataset:
+2024-11-28 22:37:55 - INFO - PassengerId: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Survived: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Pclass: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Name: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Sex: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Age: 	86 (20.57%)
+2024-11-28 22:37:55 - INFO - SibSp: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Parch: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Ticket: 	0 (0.00%)
+2024-11-28 22:37:55 - INFO - Fare: 	1 (0.24%)
+2024-11-28 22:37:55 - INFO - Cabin: 	327 (78.23%)
+2024-11-28 22:37:55 - INFO - Embarked: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Starting dataset loading process...
+2024-11-28 23:14:48 - INFO - File found at: ./data/titanic.csv.
+2024-11-28 23:14:48 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-28 23:14:48 - INFO - Dataset loaded successfully.
+2024-11-28 23:14:48 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-28 23:14:48 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-28 23:14:48 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-28 23:14:48 - INFO - Memory usage of each column:
+2024-11-28 23:14:48 - INFO - Index: 	132.00 bytes
+2024-11-28 23:14:48 - INFO - PassengerId: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - Survived: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - Pclass: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - Name: 	31970.00 bytes
+2024-11-28 23:14:48 - INFO - Sex: 	22458.00 bytes
+2024-11-28 23:14:48 - INFO - Age: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - SibSp: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - Parch: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - Ticket: 	23356.00 bytes
+2024-11-28 23:14:48 - INFO - Fare: 	3344.00 bytes
+2024-11-28 23:14:48 - INFO - Cabin: 	15294.00 bytes
+2024-11-28 23:14:48 - INFO - Embarked: 	20900.00 bytes
+2024-11-28 23:14:48 - INFO - The data type of each column in the dataset:
+2024-11-28 23:14:48 - INFO - PassengerId: 	int64
+2024-11-28 23:14:48 - INFO - Survived: 	int64
+2024-11-28 23:14:48 - INFO - Pclass: 	int64
+2024-11-28 23:14:48 - INFO - Name: 	object
+2024-11-28 23:14:48 - INFO - Sex: 	object
+2024-11-28 23:14:48 - INFO - Age: 	float64
+2024-11-28 23:14:48 - INFO - SibSp: 	int64
+2024-11-28 23:14:48 - INFO - Parch: 	int64
+2024-11-28 23:14:48 - INFO - Ticket: 	object
+2024-11-28 23:14:48 - INFO - Fare: 	float64
+2024-11-28 23:14:48 - INFO - Cabin: 	object
+2024-11-28 23:14:48 - INFO - Embarked: 	object
+2024-11-28 23:14:48 - INFO - Missing values in the dataset:
+2024-11-28 23:14:48 - INFO - PassengerId: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Survived: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Pclass: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Name: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Sex: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Age: 	86 (20.57%)
+2024-11-28 23:14:48 - INFO - SibSp: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Parch: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Ticket: 	0 (0.00%)
+2024-11-28 23:14:48 - INFO - Fare: 	1 (0.24%)
+2024-11-28 23:14:48 - INFO - Cabin: 	327 (78.23%)
+2024-11-28 23:14:48 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Starting dataset loading process...
+2024-11-29 00:11:23 - INFO - File found at: ./data/titanic.csv.
+2024-11-29 00:11:23 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-29 00:11:23 - INFO - Dataset loaded successfully.
+2024-11-29 00:11:23 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-29 00:11:23 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-29 00:11:23 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-29 00:11:23 - INFO - Memory usage of each column:
+2024-11-29 00:11:23 - INFO - Index: 	132.00 bytes
+2024-11-29 00:11:23 - INFO - PassengerId: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - Survived: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - Pclass: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - Name: 	31970.00 bytes
+2024-11-29 00:11:23 - INFO - Sex: 	22458.00 bytes
+2024-11-29 00:11:23 - INFO - Age: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - SibSp: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - Parch: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - Ticket: 	23356.00 bytes
+2024-11-29 00:11:23 - INFO - Fare: 	3344.00 bytes
+2024-11-29 00:11:23 - INFO - Cabin: 	15294.00 bytes
+2024-11-29 00:11:23 - INFO - Embarked: 	20900.00 bytes
+2024-11-29 00:11:23 - INFO - The data type of each column in the dataset:
+2024-11-29 00:11:23 - INFO - PassengerId: 	int64
+2024-11-29 00:11:23 - INFO - Survived: 	int64
+2024-11-29 00:11:23 - INFO - Pclass: 	int64
+2024-11-29 00:11:23 - INFO - Name: 	object
+2024-11-29 00:11:23 - INFO - Sex: 	object
+2024-11-29 00:11:23 - INFO - Age: 	float64
+2024-11-29 00:11:23 - INFO - SibSp: 	int64
+2024-11-29 00:11:23 - INFO - Parch: 	int64
+2024-11-29 00:11:23 - INFO - Ticket: 	object
+2024-11-29 00:11:23 - INFO - Fare: 	float64
+2024-11-29 00:11:23 - INFO - Cabin: 	object
+2024-11-29 00:11:23 - INFO - Embarked: 	object
+2024-11-29 00:11:23 - INFO - Missing values in the dataset:
+2024-11-29 00:11:23 - INFO - PassengerId: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Survived: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Pclass: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Name: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Sex: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Age: 	86 (20.57%)
+2024-11-29 00:11:23 - INFO - SibSp: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Parch: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Ticket: 	0 (0.00%)
+2024-11-29 00:11:23 - INFO - Fare: 	1 (0.24%)
+2024-11-29 00:11:23 - INFO - Cabin: 	327 (78.23%)
+2024-11-29 00:11:23 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Starting dataset loading process...
+2024-11-29 00:33:18 - INFO - File found at: ./data/titanic.csv.
+2024-11-29 00:33:18 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-29 00:33:18 - INFO - Dataset loaded successfully.
+2024-11-29 00:33:18 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-29 00:33:18 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-29 00:33:18 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-29 00:33:18 - INFO - Memory usage of each column:
+2024-11-29 00:33:18 - INFO - Index: 	132.00 bytes
+2024-11-29 00:33:18 - INFO - PassengerId: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - Survived: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - Pclass: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - Name: 	31970.00 bytes
+2024-11-29 00:33:18 - INFO - Sex: 	22458.00 bytes
+2024-11-29 00:33:18 - INFO - Age: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - SibSp: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - Parch: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - Ticket: 	23356.00 bytes
+2024-11-29 00:33:18 - INFO - Fare: 	3344.00 bytes
+2024-11-29 00:33:18 - INFO - Cabin: 	15294.00 bytes
+2024-11-29 00:33:18 - INFO - Embarked: 	20900.00 bytes
+2024-11-29 00:33:18 - INFO - The data type of each column in the dataset:
+2024-11-29 00:33:18 - INFO - PassengerId: 	int64
+2024-11-29 00:33:18 - INFO - Survived: 	int64
+2024-11-29 00:33:18 - INFO - Pclass: 	int64
+2024-11-29 00:33:18 - INFO - Name: 	object
+2024-11-29 00:33:18 - INFO - Sex: 	object
+2024-11-29 00:33:18 - INFO - Age: 	float64
+2024-11-29 00:33:18 - INFO - SibSp: 	int64
+2024-11-29 00:33:18 - INFO - Parch: 	int64
+2024-11-29 00:33:18 - INFO - Ticket: 	object
+2024-11-29 00:33:18 - INFO - Fare: 	float64
+2024-11-29 00:33:18 - INFO - Cabin: 	object
+2024-11-29 00:33:18 - INFO - Embarked: 	object
+2024-11-29 00:33:18 - INFO - Missing values in the dataset:
+2024-11-29 00:33:18 - INFO - PassengerId: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Survived: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Pclass: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Name: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Sex: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Age: 	86 (20.57%)
+2024-11-29 00:33:18 - INFO - SibSp: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Parch: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Ticket: 	0 (0.00%)
+2024-11-29 00:33:18 - INFO - Fare: 	1 (0.24%)
+2024-11-29 00:33:18 - INFO - Cabin: 	327 (78.23%)
+2024-11-29 00:33:18 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Starting dataset loading process...
+2024-11-29 09:12:54 - INFO - File found at: ./data/titanic.csv.
+2024-11-29 09:12:54 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-29 09:12:54 - INFO - Dataset loaded successfully.
+2024-11-29 09:12:54 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-29 09:12:54 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-29 09:12:54 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-29 09:12:54 - INFO - Memory usage of each column:
+2024-11-29 09:12:54 - INFO - Index: 	132.00 bytes
+2024-11-29 09:12:54 - INFO - PassengerId: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - Survived: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - Pclass: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - Name: 	31970.00 bytes
+2024-11-29 09:12:54 - INFO - Sex: 	22458.00 bytes
+2024-11-29 09:12:54 - INFO - Age: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - SibSp: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - Parch: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - Ticket: 	23356.00 bytes
+2024-11-29 09:12:54 - INFO - Fare: 	3344.00 bytes
+2024-11-29 09:12:54 - INFO - Cabin: 	15294.00 bytes
+2024-11-29 09:12:54 - INFO - Embarked: 	20900.00 bytes
+2024-11-29 09:12:54 - INFO - The data type of each column in the dataset:
+2024-11-29 09:12:54 - INFO - PassengerId: 	int64
+2024-11-29 09:12:54 - INFO - Survived: 	int64
+2024-11-29 09:12:54 - INFO - Pclass: 	int64
+2024-11-29 09:12:54 - INFO - Name: 	object
+2024-11-29 09:12:54 - INFO - Sex: 	object
+2024-11-29 09:12:54 - INFO - Age: 	float64
+2024-11-29 09:12:54 - INFO - SibSp: 	int64
+2024-11-29 09:12:54 - INFO - Parch: 	int64
+2024-11-29 09:12:54 - INFO - Ticket: 	object
+2024-11-29 09:12:54 - INFO - Fare: 	float64
+2024-11-29 09:12:54 - INFO - Cabin: 	object
+2024-11-29 09:12:54 - INFO - Embarked: 	object
+2024-11-29 09:12:54 - INFO - Missing values in the dataset:
+2024-11-29 09:12:54 - INFO - PassengerId: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Survived: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Pclass: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Name: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Sex: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Age: 	86 (20.57%)
+2024-11-29 09:12:54 - INFO - SibSp: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Parch: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Ticket: 	0 (0.00%)
+2024-11-29 09:12:54 - INFO - Fare: 	1 (0.24%)
+2024-11-29 09:12:54 - INFO - Cabin: 	327 (78.23%)
+2024-11-29 09:12:54 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 09:50:55 - INFO - Information about missing values in the Age column:
+2024-11-29 09:50:55 - INFO - Total missing values: 0
+2024-11-29 09:50:55 - INFO - Percentage of missing values; 0.00%
+2024-11-29 09:51:40 - INFO - Starting dataset loading process...
+2024-11-29 09:51:40 - INFO - File found at: ./data/titanic.csv.
+2024-11-29 09:51:40 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-29 09:51:40 - INFO - Dataset loaded successfully.
+2024-11-29 09:51:40 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-29 09:51:40 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-29 09:51:41 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-29 09:51:41 - INFO - Memory usage of each column:
+2024-11-29 09:51:41 - INFO - Index: 	132.00 bytes
+2024-11-29 09:51:41 - INFO - PassengerId: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - Survived: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - Pclass: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - Name: 	31970.00 bytes
+2024-11-29 09:51:41 - INFO - Sex: 	22458.00 bytes
+2024-11-29 09:51:41 - INFO - Age: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - SibSp: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - Parch: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - Ticket: 	23356.00 bytes
+2024-11-29 09:51:41 - INFO - Fare: 	3344.00 bytes
+2024-11-29 09:51:41 - INFO - Cabin: 	15294.00 bytes
+2024-11-29 09:51:41 - INFO - Embarked: 	20900.00 bytes
+2024-11-29 09:51:41 - INFO - The data type of each column in the dataset:
+2024-11-29 09:51:41 - INFO - PassengerId: 	int64
+2024-11-29 09:51:41 - INFO - Survived: 	int64
+2024-11-29 09:51:41 - INFO - Pclass: 	int64
+2024-11-29 09:51:41 - INFO - Name: 	object
+2024-11-29 09:51:41 - INFO - Sex: 	object
+2024-11-29 09:51:41 - INFO - Age: 	float64
+2024-11-29 09:51:41 - INFO - SibSp: 	int64
+2024-11-29 09:51:41 - INFO - Parch: 	int64
+2024-11-29 09:51:41 - INFO - Ticket: 	object
+2024-11-29 09:51:41 - INFO - Fare: 	float64
+2024-11-29 09:51:41 - INFO - Cabin: 	object
+2024-11-29 09:51:41 - INFO - Embarked: 	object
+2024-11-29 09:51:41 - INFO - Missing values in the dataset:
+2024-11-29 09:51:41 - INFO - PassengerId: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Survived: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Pclass: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Name: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Sex: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Age: 	86 (20.57%)
+2024-11-29 09:51:41 - INFO - SibSp: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Parch: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Ticket: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Fare: 	1 (0.24%)
+2024-11-29 09:51:41 - INFO - Cabin: 	327 (78.23%)
+2024-11-29 09:51:41 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 09:51:41 - INFO - Information about missing values in the Age column:
+2024-11-29 09:51:41 - INFO - Total missing values: 86
+2024-11-29 09:51:41 - INFO - Percentage of missing values; 20.57%
+2024-11-29 09:51:58 - INFO - Information about missing values in the Age column:
+2024-11-29 09:51:58 - INFO - Total missing values: 0
+2024-11-29 09:51:58 - INFO - Percentage of missing values; 0.00%
+2024-11-29 09:52:18 - INFO - Starting dataset loading process...
+2024-11-29 09:52:18 - INFO - File found at: ./data/titanic.csv.
+2024-11-29 09:52:18 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-29 09:52:18 - INFO - Dataset loaded successfully.
+2024-11-29 09:52:18 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-29 09:52:18 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-29 09:52:18 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-29 09:52:18 - INFO - Memory usage of each column:
+2024-11-29 09:52:18 - INFO - Index: 	132.00 bytes
+2024-11-29 09:52:18 - INFO - PassengerId: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - Survived: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - Pclass: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - Name: 	31970.00 bytes
+2024-11-29 09:52:18 - INFO - Sex: 	22458.00 bytes
+2024-11-29 09:52:18 - INFO - Age: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - SibSp: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - Parch: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - Ticket: 	23356.00 bytes
+2024-11-29 09:52:18 - INFO - Fare: 	3344.00 bytes
+2024-11-29 09:52:18 - INFO - Cabin: 	15294.00 bytes
+2024-11-29 09:52:18 - INFO - Embarked: 	20900.00 bytes
+2024-11-29 09:52:18 - INFO - The data type of each column in the dataset:
+2024-11-29 09:52:18 - INFO - PassengerId: 	int64
+2024-11-29 09:52:18 - INFO - Survived: 	int64
+2024-11-29 09:52:18 - INFO - Pclass: 	int64
+2024-11-29 09:52:18 - INFO - Name: 	object
+2024-11-29 09:52:18 - INFO - Sex: 	object
+2024-11-29 09:52:18 - INFO - Age: 	float64
+2024-11-29 09:52:18 - INFO - SibSp: 	int64
+2024-11-29 09:52:18 - INFO - Parch: 	int64
+2024-11-29 09:52:18 - INFO - Ticket: 	object
+2024-11-29 09:52:18 - INFO - Fare: 	float64
+2024-11-29 09:52:18 - INFO - Cabin: 	object
+2024-11-29 09:52:18 - INFO - Embarked: 	object
+2024-11-29 09:52:18 - INFO - Missing values in the dataset:
+2024-11-29 09:52:18 - INFO - PassengerId: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Survived: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Pclass: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Name: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Sex: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Age: 	86 (20.57%)
+2024-11-29 09:52:18 - INFO - SibSp: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Parch: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Ticket: 	0 (0.00%)
+2024-11-29 09:52:18 - INFO - Fare: 	1 (0.24%)
+2024-11-29 09:52:18 - INFO - Cabin: 	327 (78.23%)
+2024-11-29 09:52:18 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 09:52:33 - INFO - Information about missing values in the Age column:
+2024-11-29 09:52:33 - INFO - Total missing values: 86
+2024-11-29 09:52:33 - INFO - Percentage of missing values; 20.57%
+2024-11-29 09:52:44 - INFO - Information about missing values in the Age column:
+2024-11-29 09:52:44 - INFO - Total missing values: 86
+2024-11-29 09:52:44 - INFO - Percentage of missing values; 20.57%
+2024-11-29 09:55:41 - INFO - Starting dataset loading process...
+2024-11-29 09:55:41 - INFO - File found at: ./data/titanic.csv.
+2024-11-29 09:55:41 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-29 09:55:41 - INFO - Dataset loaded successfully.
+2024-11-29 09:55:41 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-29 09:55:41 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-29 09:55:41 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-29 09:55:41 - INFO - Memory usage of each column:
+2024-11-29 09:55:41 - INFO - Index: 	132.00 bytes
+2024-11-29 09:55:41 - INFO - PassengerId: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - Survived: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - Pclass: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - Name: 	31970.00 bytes
+2024-11-29 09:55:41 - INFO - Sex: 	22458.00 bytes
+2024-11-29 09:55:41 - INFO - Age: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - SibSp: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - Parch: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - Ticket: 	23356.00 bytes
+2024-11-29 09:55:41 - INFO - Fare: 	3344.00 bytes
+2024-11-29 09:55:41 - INFO - Cabin: 	15294.00 bytes
+2024-11-29 09:55:41 - INFO - Embarked: 	20900.00 bytes
+2024-11-29 09:55:41 - INFO - The data type of each column in the dataset:
+2024-11-29 09:55:41 - INFO - PassengerId: 	int64
+2024-11-29 09:55:41 - INFO - Survived: 	int64
+2024-11-29 09:55:41 - INFO - Pclass: 	int64
+2024-11-29 09:55:41 - INFO - Name: 	object
+2024-11-29 09:55:41 - INFO - Sex: 	object
+2024-11-29 09:55:41 - INFO - Age: 	float64
+2024-11-29 09:55:41 - INFO - SibSp: 	int64
+2024-11-29 09:55:41 - INFO - Parch: 	int64
+2024-11-29 09:55:41 - INFO - Ticket: 	object
+2024-11-29 09:55:41 - INFO - Fare: 	float64
+2024-11-29 09:55:41 - INFO - Cabin: 	object
+2024-11-29 09:55:41 - INFO - Embarked: 	object
+2024-11-29 09:55:41 - INFO - Missing values in the dataset:
+2024-11-29 09:55:41 - INFO - PassengerId: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Survived: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Pclass: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Name: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Sex: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Age: 	86 (20.57%)
+2024-11-29 09:55:41 - INFO - SibSp: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Parch: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Ticket: 	0 (0.00%)
+2024-11-29 09:55:41 - INFO - Fare: 	1 (0.24%)
+2024-11-29 09:55:41 - INFO - Cabin: 	327 (78.23%)
+2024-11-29 09:55:41 - INFO - Embarked: 	0 (0.00%)
+2024-11-29 09:55:42 - INFO - Information about missing values in the Age column:
+2024-11-29 09:55:42 - INFO - Total missing values: 86
+2024-11-29 09:55:42 - INFO - Percentage of missing values; 20.57%
+2024-11-30 20:47:13 - INFO - Starting dataset loading process...
+2024-11-30 20:47:13 - INFO - File found at: ./data/titanic.csv.
+2024-11-30 20:47:13 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-30 20:47:13 - INFO - Dataset loaded successfully.
+2024-11-30 20:47:13 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-30 20:47:13 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-30 20:47:14 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-30 20:47:14 - INFO - Memory usage of each column:
+2024-11-30 20:47:14 - INFO - Index: 	132.00 bytes
+2024-11-30 20:47:14 - INFO - PassengerId: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - Survived: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - Pclass: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - Name: 	31970.00 bytes
+2024-11-30 20:47:14 - INFO - Sex: 	22458.00 bytes
+2024-11-30 20:47:14 - INFO - Age: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - SibSp: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - Parch: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - Ticket: 	23356.00 bytes
+2024-11-30 20:47:14 - INFO - Fare: 	3344.00 bytes
+2024-11-30 20:47:14 - INFO - Cabin: 	15294.00 bytes
+2024-11-30 20:47:14 - INFO - Embarked: 	20900.00 bytes
+2024-11-30 20:47:14 - INFO - The data type of each column in the dataset:
+2024-11-30 20:47:14 - INFO - PassengerId: 	int64
+2024-11-30 20:47:14 - INFO - Survived: 	int64
+2024-11-30 20:47:14 - INFO - Pclass: 	int64
+2024-11-30 20:47:14 - INFO - Name: 	object
+2024-11-30 20:47:14 - INFO - Sex: 	object
+2024-11-30 20:47:14 - INFO - Age: 	float64
+2024-11-30 20:47:14 - INFO - SibSp: 	int64
+2024-11-30 20:47:14 - INFO - Parch: 	int64
+2024-11-30 20:47:14 - INFO - Ticket: 	object
+2024-11-30 20:47:14 - INFO - Fare: 	float64
+2024-11-30 20:47:14 - INFO - Cabin: 	object
+2024-11-30 20:47:14 - INFO - Embarked: 	object
+2024-11-30 20:47:14 - INFO - Missing values in the dataset:
+2024-11-30 20:47:14 - INFO - PassengerId: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Survived: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Pclass: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Name: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Sex: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Age: 	86 (20.57%)
+2024-11-30 20:47:14 - INFO - SibSp: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Parch: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Ticket: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Fare: 	1 (0.24%)
+2024-11-30 20:47:14 - INFO - Cabin: 	327 (78.23%)
+2024-11-30 20:47:14 - INFO - Embarked: 	0 (0.00%)
+2024-11-30 20:47:14 - INFO - Information about missing values in the Age column:
+2024-11-30 20:47:14 - INFO - Total missing values: 86
+2024-11-30 20:47:14 - INFO - Percentage of missing values; 20.57%
+2024-11-30 20:47:14 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-11-30 21:04:06 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-11-30 21:04:06 - INFO - Create Age Groups:
+2024-11-30 21:05:11 - INFO - Starting dataset loading process...
+2024-11-30 21:05:11 - INFO - File found at: ./data/titanic.csv.
+2024-11-30 21:05:11 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-30 21:05:11 - INFO - Dataset loaded successfully.
+2024-11-30 21:05:11 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-30 21:05:11 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-30 21:05:11 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-30 21:05:11 - INFO - Memory usage of each column:
+2024-11-30 21:05:11 - INFO - Index: 	132.00 bytes
+2024-11-30 21:05:11 - INFO - PassengerId: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - Survived: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - Pclass: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - Name: 	31970.00 bytes
+2024-11-30 21:05:11 - INFO - Sex: 	22458.00 bytes
+2024-11-30 21:05:11 - INFO - Age: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - SibSp: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - Parch: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - Ticket: 	23356.00 bytes
+2024-11-30 21:05:11 - INFO - Fare: 	3344.00 bytes
+2024-11-30 21:05:11 - INFO - Cabin: 	15294.00 bytes
+2024-11-30 21:05:11 - INFO - Embarked: 	20900.00 bytes
+2024-11-30 21:05:12 - INFO - The data type of each column in the dataset:
+2024-11-30 21:05:12 - INFO - PassengerId: 	int64
+2024-11-30 21:05:12 - INFO - Survived: 	int64
+2024-11-30 21:05:12 - INFO - Pclass: 	int64
+2024-11-30 21:05:12 - INFO - Name: 	object
+2024-11-30 21:05:12 - INFO - Sex: 	object
+2024-11-30 21:05:12 - INFO - Age: 	float64
+2024-11-30 21:05:12 - INFO - SibSp: 	int64
+2024-11-30 21:05:12 - INFO - Parch: 	int64
+2024-11-30 21:05:12 - INFO - Ticket: 	object
+2024-11-30 21:05:12 - INFO - Fare: 	float64
+2024-11-30 21:05:12 - INFO - Cabin: 	object
+2024-11-30 21:05:12 - INFO - Embarked: 	object
+2024-11-30 21:05:12 - INFO - Missing values in the dataset:
+2024-11-30 21:05:12 - INFO - PassengerId: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Survived: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Pclass: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Name: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Sex: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Age: 	86 (20.57%)
+2024-11-30 21:05:12 - INFO - SibSp: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Parch: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Ticket: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Fare: 	1 (0.24%)
+2024-11-30 21:05:12 - INFO - Cabin: 	327 (78.23%)
+2024-11-30 21:05:12 - INFO - Embarked: 	0 (0.00%)
+2024-11-30 21:05:12 - INFO - Information about missing values in the Age column:
+2024-11-30 21:05:12 - INFO - Total missing values: 86
+2024-11-30 21:05:12 - INFO - Percentage of missing values; 20.57%
+2024-11-30 22:14:27 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-11-30 22:14:27 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-11-30 23:14:27 - INFO - Starting dataset loading process...
+2024-11-30 23:14:27 - INFO - File found at: ./data/titanic.csv.
+2024-11-30 23:14:27 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-11-30 23:14:27 - INFO - Dataset loaded successfully.
+2024-11-30 23:14:27 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-11-30 23:14:27 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-11-30 23:14:27 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-11-30 23:14:27 - INFO - Memory usage of each column:
+2024-11-30 23:14:27 - INFO - Index: 	132.00 bytes
+2024-11-30 23:14:27 - INFO - PassengerId: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - Survived: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - Pclass: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - Name: 	31970.00 bytes
+2024-11-30 23:14:27 - INFO - Sex: 	22458.00 bytes
+2024-11-30 23:14:27 - INFO - Age: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - SibSp: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - Parch: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - Ticket: 	23356.00 bytes
+2024-11-30 23:14:27 - INFO - Fare: 	3344.00 bytes
+2024-11-30 23:14:27 - INFO - Cabin: 	15294.00 bytes
+2024-11-30 23:14:27 - INFO - Embarked: 	20900.00 bytes
+2024-11-30 23:14:27 - INFO - The data type of each column in the dataset:
+2024-11-30 23:14:27 - INFO - PassengerId: 	int64
+2024-11-30 23:14:27 - INFO - Survived: 	int64
+2024-11-30 23:14:27 - INFO - Pclass: 	int64
+2024-11-30 23:14:27 - INFO - Name: 	object
+2024-11-30 23:14:27 - INFO - Sex: 	object
+2024-11-30 23:14:27 - INFO - Age: 	float64
+2024-11-30 23:14:27 - INFO - SibSp: 	int64
+2024-11-30 23:14:27 - INFO - Parch: 	int64
+2024-11-30 23:14:27 - INFO - Ticket: 	object
+2024-11-30 23:14:27 - INFO - Fare: 	float64
+2024-11-30 23:14:27 - INFO - Cabin: 	object
+2024-11-30 23:14:27 - INFO - Embarked: 	object
+2024-11-30 23:14:27 - INFO - Missing values in the dataset:
+2024-11-30 23:14:27 - INFO - PassengerId: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Survived: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Pclass: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Name: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Sex: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Age: 	86 (20.57%)
+2024-11-30 23:14:27 - INFO - SibSp: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Parch: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Ticket: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Fare: 	1 (0.24%)
+2024-11-30 23:14:27 - INFO - Cabin: 	327 (78.23%)
+2024-11-30 23:14:27 - INFO - Embarked: 	0 (0.00%)
+2024-11-30 23:14:27 - INFO - Information about missing values in the Age column:
+2024-11-30 23:14:27 - INFO - Total missing values: 86
+2024-11-30 23:14:27 - INFO - Percentage of missing values; 20.57%
+2024-11-30 23:14:27 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-11-30 23:14:27 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-01 00:11:55 - INFO - Starting dataset loading process...
+2024-12-01 00:11:55 - INFO - File found at: ./data/titanic.csv.
+2024-12-01 00:11:55 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-01 00:11:55 - INFO - Dataset loaded successfully.
+2024-12-01 00:11:55 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-01 00:11:55 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-01 00:11:55 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-01 00:11:55 - INFO - Memory usage of each column:
+2024-12-01 00:11:55 - INFO - Index: 	132.00 bytes
+2024-12-01 00:11:55 - INFO - PassengerId: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - Survived: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - Pclass: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - Name: 	31970.00 bytes
+2024-12-01 00:11:55 - INFO - Sex: 	22458.00 bytes
+2024-12-01 00:11:55 - INFO - Age: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - SibSp: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - Parch: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - Ticket: 	23356.00 bytes
+2024-12-01 00:11:55 - INFO - Fare: 	3344.00 bytes
+2024-12-01 00:11:55 - INFO - Cabin: 	15294.00 bytes
+2024-12-01 00:11:55 - INFO - Embarked: 	20900.00 bytes
+2024-12-01 00:11:55 - INFO - The data type of each column in the dataset:
+2024-12-01 00:11:55 - INFO - PassengerId: 	int64
+2024-12-01 00:11:55 - INFO - Survived: 	int64
+2024-12-01 00:11:55 - INFO - Pclass: 	int64
+2024-12-01 00:11:55 - INFO - Name: 	object
+2024-12-01 00:11:55 - INFO - Sex: 	object
+2024-12-01 00:11:55 - INFO - Age: 	float64
+2024-12-01 00:11:55 - INFO - SibSp: 	int64
+2024-12-01 00:11:55 - INFO - Parch: 	int64
+2024-12-01 00:11:55 - INFO - Ticket: 	object
+2024-12-01 00:11:55 - INFO - Fare: 	float64
+2024-12-01 00:11:55 - INFO - Cabin: 	object
+2024-12-01 00:11:55 - INFO - Embarked: 	object
+2024-12-01 00:11:55 - INFO - Missing values in the dataset:
+2024-12-01 00:11:55 - INFO - PassengerId: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Survived: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Pclass: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Name: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Sex: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Age: 	86 (20.57%)
+2024-12-01 00:11:55 - INFO - SibSp: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Parch: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Ticket: 	0 (0.00%)
+2024-12-01 00:11:55 - INFO - Fare: 	1 (0.24%)
+2024-12-01 00:11:55 - INFO - Cabin: 	327 (78.23%)
+2024-12-01 00:11:55 - INFO - Embarked: 	0 (0.00%)
+2024-12-01 00:11:56 - INFO - Information about missing values in the Age column:
+2024-12-01 00:11:56 - INFO - Total missing values: 86
+2024-12-01 00:11:56 - INFO - Percentage of missing values; 20.57%
+2024-12-01 00:11:56 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-01 00:11:56 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-01 00:12:18 - INFO - Starting dataset loading process...
+2024-12-01 00:12:18 - INFO - File found at: ./data/titanic.csv.
+2024-12-01 00:12:18 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-01 00:12:18 - INFO - Dataset loaded successfully.
+2024-12-01 00:12:18 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-01 00:12:18 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-01 00:12:18 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-01 00:12:18 - INFO - Memory usage of each column:
+2024-12-01 00:12:18 - INFO - Index: 	132.00 bytes
+2024-12-01 00:12:18 - INFO - PassengerId: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - Survived: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - Pclass: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - Name: 	31970.00 bytes
+2024-12-01 00:12:18 - INFO - Sex: 	22458.00 bytes
+2024-12-01 00:12:18 - INFO - Age: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - SibSp: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - Parch: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - Ticket: 	23356.00 bytes
+2024-12-01 00:12:18 - INFO - Fare: 	3344.00 bytes
+2024-12-01 00:12:18 - INFO - Cabin: 	15294.00 bytes
+2024-12-01 00:12:18 - INFO - Embarked: 	20900.00 bytes
+2024-12-01 00:12:18 - INFO - The data type of each column in the dataset:
+2024-12-01 00:12:18 - INFO - PassengerId: 	int64
+2024-12-01 00:12:18 - INFO - Survived: 	int64
+2024-12-01 00:12:18 - INFO - Pclass: 	int64
+2024-12-01 00:12:18 - INFO - Name: 	object
+2024-12-01 00:12:18 - INFO - Sex: 	object
+2024-12-01 00:12:18 - INFO - Age: 	float64
+2024-12-01 00:12:18 - INFO - SibSp: 	int64
+2024-12-01 00:12:18 - INFO - Parch: 	int64
+2024-12-01 00:12:18 - INFO - Ticket: 	object
+2024-12-01 00:12:18 - INFO - Fare: 	float64
+2024-12-01 00:12:19 - INFO - Cabin: 	object
+2024-12-01 00:12:19 - INFO - Embarked: 	object
+2024-12-01 00:12:19 - INFO - Missing values in the dataset:
+2024-12-01 00:12:19 - INFO - PassengerId: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Survived: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Pclass: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Name: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Sex: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Age: 	86 (20.57%)
+2024-12-01 00:12:19 - INFO - SibSp: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Parch: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Ticket: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Fare: 	1 (0.24%)
+2024-12-01 00:12:19 - INFO - Cabin: 	327 (78.23%)
+2024-12-01 00:12:19 - INFO - Embarked: 	0 (0.00%)
+2024-12-01 00:12:19 - INFO - Information about missing values in the Age column:
+2024-12-01 00:12:19 - INFO - Total missing values: 86
+2024-12-01 00:12:19 - INFO - Percentage of missing values; 20.57%
+2024-12-01 00:12:19 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-01 00:12:19 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-01 01:51:48 - INFO - Starting dataset loading process...
+2024-12-01 01:51:48 - INFO - File found at: ./data/titanic.csv.
+2024-12-01 01:51:48 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-01 01:51:48 - INFO - Dataset loaded successfully.
+2024-12-01 01:51:48 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-01 01:51:48 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-01 01:51:48 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-01 01:51:48 - INFO - Memory usage of each column:
+2024-12-01 01:51:48 - INFO - Index: 	132.00 bytes
+2024-12-01 01:51:48 - INFO - PassengerId: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - Survived: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - Pclass: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - Name: 	31970.00 bytes
+2024-12-01 01:51:48 - INFO - Sex: 	22458.00 bytes
+2024-12-01 01:51:48 - INFO - Age: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - SibSp: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - Parch: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - Ticket: 	23356.00 bytes
+2024-12-01 01:51:48 - INFO - Fare: 	3344.00 bytes
+2024-12-01 01:51:48 - INFO - Cabin: 	15294.00 bytes
+2024-12-01 01:51:48 - INFO - Embarked: 	20900.00 bytes
+2024-12-01 01:51:48 - INFO - The data type of each column in the dataset:
+2024-12-01 01:51:48 - INFO - PassengerId: 	int64
+2024-12-01 01:51:48 - INFO - Survived: 	int64
+2024-12-01 01:51:48 - INFO - Pclass: 	int64
+2024-12-01 01:51:48 - INFO - Name: 	object
+2024-12-01 01:51:48 - INFO - Sex: 	object
+2024-12-01 01:51:48 - INFO - Age: 	float64
+2024-12-01 01:51:48 - INFO - SibSp: 	int64
+2024-12-01 01:51:48 - INFO - Parch: 	int64
+2024-12-01 01:51:48 - INFO - Ticket: 	object
+2024-12-01 01:51:48 - INFO - Fare: 	float64
+2024-12-01 01:51:48 - INFO - Cabin: 	object
+2024-12-01 01:51:48 - INFO - Embarked: 	object
+2024-12-01 01:51:48 - INFO - Missing values in the dataset:
+2024-12-01 01:51:48 - INFO - PassengerId: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Survived: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Pclass: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Name: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Sex: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Age: 	86 (20.57%)
+2024-12-01 01:51:48 - INFO - SibSp: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Parch: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Ticket: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Fare: 	1 (0.24%)
+2024-12-01 01:51:48 - INFO - Cabin: 	327 (78.23%)
+2024-12-01 01:51:48 - INFO - Embarked: 	0 (0.00%)
+2024-12-01 01:51:48 - INFO - Information about missing values in the Age column:
+2024-12-01 01:51:48 - INFO - Total missing values: 86
+2024-12-01 01:51:48 - INFO - Percentage of missing values; 20.57%
+2024-12-01 01:51:48 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-01 01:51:48 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-01 13:30:02 - INFO - Starting dataset loading process...
+2024-12-01 13:30:02 - INFO - File found at: ./data/titanic.csv.
+2024-12-01 13:30:02 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-01 13:30:02 - INFO - Dataset loaded successfully.
+2024-12-01 13:30:02 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-01 13:30:02 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-01 13:30:02 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-01 13:30:02 - INFO - Memory usage of each column:
+2024-12-01 13:30:02 - INFO - Index: 	132.00 bytes
+2024-12-01 13:30:02 - INFO - PassengerId: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - Survived: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - Pclass: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - Name: 	31970.00 bytes
+2024-12-01 13:30:02 - INFO - Sex: 	22458.00 bytes
+2024-12-01 13:30:02 - INFO - Age: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - SibSp: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - Parch: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - Ticket: 	23356.00 bytes
+2024-12-01 13:30:02 - INFO - Fare: 	3344.00 bytes
+2024-12-01 13:30:02 - INFO - Cabin: 	15294.00 bytes
+2024-12-01 13:30:02 - INFO - Embarked: 	20900.00 bytes
+2024-12-01 13:30:02 - INFO - The data type of each column in the dataset:
+2024-12-01 13:30:02 - INFO - PassengerId: 	int64
+2024-12-01 13:30:02 - INFO - Survived: 	int64
+2024-12-01 13:30:02 - INFO - Pclass: 	int64
+2024-12-01 13:30:02 - INFO - Name: 	object
+2024-12-01 13:30:02 - INFO - Sex: 	object
+2024-12-01 13:30:02 - INFO - Age: 	float64
+2024-12-01 13:30:02 - INFO - SibSp: 	int64
+2024-12-01 13:30:02 - INFO - Parch: 	int64
+2024-12-01 13:30:02 - INFO - Ticket: 	object
+2024-12-01 13:30:02 - INFO - Fare: 	float64
+2024-12-01 13:30:02 - INFO - Cabin: 	object
+2024-12-01 13:30:02 - INFO - Embarked: 	object
+2024-12-01 13:30:02 - INFO - Missing values in the dataset:
+2024-12-01 13:30:02 - INFO - PassengerId: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Survived: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Pclass: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Name: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Sex: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Age: 	86 (20.57%)
+2024-12-01 13:30:02 - INFO - SibSp: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Parch: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Ticket: 	0 (0.00%)
+2024-12-01 13:30:02 - INFO - Fare: 	1 (0.24%)
+2024-12-01 13:30:02 - INFO - Cabin: 	327 (78.23%)
+2024-12-01 13:30:02 - INFO - Embarked: 	0 (0.00%)
+2024-12-01 13:30:03 - INFO - Information about missing values in the Age column:
+2024-12-01 13:30:03 - INFO - Total missing values: 86
+2024-12-01 13:30:03 - INFO - Percentage of missing values; 20.57%
+2024-12-01 13:30:03 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-01 13:30:03 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-01 18:38:15 - INFO - Starting dataset loading process...
+2024-12-01 18:38:15 - INFO - File found at: ./data/titanic.csv.
+2024-12-01 18:38:15 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-01 18:38:15 - INFO - Dataset loaded successfully.
+2024-12-01 18:38:15 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-01 18:38:15 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-01 18:38:15 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-01 18:38:15 - INFO - Memory usage of each column:
+2024-12-01 18:38:15 - INFO - Index: 	132.00 bytes
+2024-12-01 18:38:15 - INFO - PassengerId: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - Survived: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - Pclass: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - Name: 	31970.00 bytes
+2024-12-01 18:38:15 - INFO - Sex: 	22458.00 bytes
+2024-12-01 18:38:15 - INFO - Age: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - SibSp: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - Parch: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - Ticket: 	23356.00 bytes
+2024-12-01 18:38:15 - INFO - Fare: 	3344.00 bytes
+2024-12-01 18:38:15 - INFO - Cabin: 	15294.00 bytes
+2024-12-01 18:38:15 - INFO - Embarked: 	20900.00 bytes
+2024-12-01 18:38:16 - INFO - The data type of each column in the dataset:
+2024-12-01 18:38:16 - INFO - PassengerId: 	int64
+2024-12-01 18:38:16 - INFO - Survived: 	int64
+2024-12-01 18:38:16 - INFO - Pclass: 	int64
+2024-12-01 18:38:16 - INFO - Name: 	object
+2024-12-01 18:38:16 - INFO - Sex: 	object
+2024-12-01 18:38:16 - INFO - Age: 	float64
+2024-12-01 18:38:16 - INFO - SibSp: 	int64
+2024-12-01 18:38:16 - INFO - Parch: 	int64
+2024-12-01 18:38:16 - INFO - Ticket: 	object
+2024-12-01 18:38:16 - INFO - Fare: 	float64
+2024-12-01 18:38:16 - INFO - Cabin: 	object
+2024-12-01 18:38:16 - INFO - Embarked: 	object
+2024-12-01 18:38:16 - INFO - Missing values in the dataset:
+2024-12-01 18:38:16 - INFO - PassengerId: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Survived: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Pclass: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Name: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Sex: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Age: 	86 (20.57%)
+2024-12-01 18:38:16 - INFO - SibSp: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Parch: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Ticket: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Fare: 	1 (0.24%)
+2024-12-01 18:38:16 - INFO - Cabin: 	327 (78.23%)
+2024-12-01 18:38:16 - INFO - Embarked: 	0 (0.00%)
+2024-12-01 18:38:16 - INFO - Information about missing values in the Age column:
+2024-12-01 18:38:16 - INFO - Total missing values: 86
+2024-12-01 18:38:16 - INFO - Percentage of missing values; 20.57%
+2024-12-01 18:38:16 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-01 18:38:16 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-01 19:56:47 - INFO - Starting dataset loading process...
+2024-12-01 19:56:47 - INFO - File found at: ./data/titanic.csv.
+2024-12-01 19:56:47 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-01 19:56:47 - INFO - Dataset loaded successfully.
+2024-12-01 19:56:48 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-01 19:56:48 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-01 19:56:48 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-01 19:56:48 - INFO - Memory usage of each column:
+2024-12-01 19:56:48 - INFO - Index: 	132.00 bytes
+2024-12-01 19:56:48 - INFO - PassengerId: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - Survived: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - Pclass: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - Name: 	31970.00 bytes
+2024-12-01 19:56:48 - INFO - Sex: 	22458.00 bytes
+2024-12-01 19:56:48 - INFO - Age: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - SibSp: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - Parch: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - Ticket: 	23356.00 bytes
+2024-12-01 19:56:48 - INFO - Fare: 	3344.00 bytes
+2024-12-01 19:56:48 - INFO - Cabin: 	15294.00 bytes
+2024-12-01 19:56:48 - INFO - Embarked: 	20900.00 bytes
+2024-12-01 19:56:48 - INFO - The data type of each column in the dataset:
+2024-12-01 19:56:48 - INFO - PassengerId: 	int64
+2024-12-01 19:56:48 - INFO - Survived: 	int64
+2024-12-01 19:56:48 - INFO - Pclass: 	int64
+2024-12-01 19:56:48 - INFO - Name: 	object
+2024-12-01 19:56:48 - INFO - Sex: 	object
+2024-12-01 19:56:48 - INFO - Age: 	float64
+2024-12-01 19:56:48 - INFO - SibSp: 	int64
+2024-12-01 19:56:48 - INFO - Parch: 	int64
+2024-12-01 19:56:48 - INFO - Ticket: 	object
+2024-12-01 19:56:48 - INFO - Fare: 	float64
+2024-12-01 19:56:48 - INFO - Cabin: 	object
+2024-12-01 19:56:48 - INFO - Embarked: 	object
+2024-12-01 19:56:48 - INFO - Missing values in the dataset:
+2024-12-01 19:56:48 - INFO - PassengerId: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Survived: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Pclass: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Name: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Sex: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Age: 	86 (20.57%)
+2024-12-01 19:56:48 - INFO - SibSp: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Parch: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Ticket: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Fare: 	1 (0.24%)
+2024-12-01 19:56:48 - INFO - Cabin: 	327 (78.23%)
+2024-12-01 19:56:48 - INFO - Embarked: 	0 (0.00%)
+2024-12-01 19:56:48 - INFO - Information about missing values in the Age column:
+2024-12-01 19:56:48 - INFO - Total missing values: 86
+2024-12-01 19:56:48 - INFO - Percentage of missing values; 20.57%
+2024-12-01 19:56:48 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-01 19:56:48 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-02 17:34:43 - INFO - Starting dataset loading process...
+2024-12-02 17:34:43 - INFO - File found at: ./data/titanic.csv.
+2024-12-02 17:34:43 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-02 17:34:43 - INFO - Dataset loaded successfully.
+2024-12-02 17:34:43 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-02 17:34:43 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-02 17:34:43 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-02 17:34:43 - INFO - Memory usage of each column:
+2024-12-02 17:34:43 - INFO - Index: 	132.00 bytes
+2024-12-02 17:34:43 - INFO - PassengerId: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - Survived: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - Pclass: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - Name: 	31970.00 bytes
+2024-12-02 17:34:43 - INFO - Sex: 	22458.00 bytes
+2024-12-02 17:34:43 - INFO - Age: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - SibSp: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - Parch: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - Ticket: 	23356.00 bytes
+2024-12-02 17:34:43 - INFO - Fare: 	3344.00 bytes
+2024-12-02 17:34:43 - INFO - Cabin: 	15294.00 bytes
+2024-12-02 17:34:43 - INFO - Embarked: 	20900.00 bytes
+2024-12-02 17:34:43 - INFO - The data type of each column in the dataset:
+2024-12-02 17:34:43 - INFO - PassengerId: 	int64
+2024-12-02 17:34:43 - INFO - Survived: 	int64
+2024-12-02 17:34:43 - INFO - Pclass: 	int64
+2024-12-02 17:34:43 - INFO - Name: 	object
+2024-12-02 17:34:43 - INFO - Sex: 	object
+2024-12-02 17:34:43 - INFO - Age: 	float64
+2024-12-02 17:34:43 - INFO - SibSp: 	int64
+2024-12-02 17:34:43 - INFO - Parch: 	int64
+2024-12-02 17:34:43 - INFO - Ticket: 	object
+2024-12-02 17:34:43 - INFO - Fare: 	float64
+2024-12-02 17:34:43 - INFO - Cabin: 	object
+2024-12-02 17:34:43 - INFO - Embarked: 	object
+2024-12-02 17:34:43 - INFO - Missing values in the dataset:
+2024-12-02 17:34:43 - INFO - PassengerId: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Survived: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Pclass: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Name: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Sex: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Age: 	86 (20.57%)
+2024-12-02 17:34:43 - INFO - SibSp: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Parch: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Ticket: 	0 (0.00%)
+2024-12-02 17:34:43 - INFO - Fare: 	1 (0.24%)
+2024-12-02 17:34:43 - INFO - Cabin: 	327 (78.23%)
+2024-12-02 17:34:43 - INFO - Embarked: 	0 (0.00%)
+2024-12-02 17:34:44 - INFO - Information about missing values in the Age column:
+2024-12-02 17:34:44 - INFO - Total missing values: 86
+2024-12-02 17:34:44 - INFO - Percentage of missing values; 20.57%
+2024-12-02 17:34:45 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-02 17:34:45 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-03 00:15:47 - INFO - Starting dataset loading process...
+2024-12-03 00:15:47 - INFO - File found at: ./data/titanic.csv.
+2024-12-03 00:15:47 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-03 00:15:47 - INFO - Dataset loaded successfully.
+2024-12-03 00:15:47 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-03 00:15:47 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-03 00:15:47 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-03 00:15:47 - INFO - Memory usage of each column:
+2024-12-03 00:15:47 - INFO - Index: 	132.00 bytes
+2024-12-03 00:15:47 - INFO - PassengerId: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - Survived: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - Pclass: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - Name: 	31970.00 bytes
+2024-12-03 00:15:47 - INFO - Sex: 	22458.00 bytes
+2024-12-03 00:15:47 - INFO - Age: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - SibSp: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - Parch: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - Ticket: 	23356.00 bytes
+2024-12-03 00:15:47 - INFO - Fare: 	3344.00 bytes
+2024-12-03 00:15:47 - INFO - Cabin: 	15294.00 bytes
+2024-12-03 00:15:47 - INFO - Embarked: 	20900.00 bytes
+2024-12-03 00:15:47 - INFO - The data type of each column in the dataset:
+2024-12-03 00:15:47 - INFO - PassengerId: 	int64
+2024-12-03 00:15:47 - INFO - Survived: 	int64
+2024-12-03 00:15:47 - INFO - Pclass: 	int64
+2024-12-03 00:15:47 - INFO - Name: 	object
+2024-12-03 00:15:47 - INFO - Sex: 	object
+2024-12-03 00:15:47 - INFO - Age: 	float64
+2024-12-03 00:15:47 - INFO - SibSp: 	int64
+2024-12-03 00:15:47 - INFO - Parch: 	int64
+2024-12-03 00:15:47 - INFO - Ticket: 	object
+2024-12-03 00:15:47 - INFO - Fare: 	float64
+2024-12-03 00:15:47 - INFO - Cabin: 	object
+2024-12-03 00:15:47 - INFO - Embarked: 	object
+2024-12-03 00:15:47 - INFO - Missing values in the dataset:
+2024-12-03 00:15:47 - INFO - PassengerId: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Survived: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Pclass: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Name: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Sex: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Age: 	86 (20.57%)
+2024-12-03 00:15:47 - INFO - SibSp: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Parch: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Ticket: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Fare: 	1 (0.24%)
+2024-12-03 00:15:47 - INFO - Cabin: 	327 (78.23%)
+2024-12-03 00:15:47 - INFO - Embarked: 	0 (0.00%)
+2024-12-03 00:15:47 - INFO - Information about missing values in the Age column:
+2024-12-03 00:15:47 - INFO - Total missing values: 86
+2024-12-03 00:15:47 - INFO - Percentage of missing values; 20.57%
+2024-12-03 00:15:49 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-03 00:15:49 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-03 00:25:05 - INFO - Starting dataset loading process...
+2024-12-03 00:25:05 - INFO - File found at: ./data/titanic.csv.
+2024-12-03 00:25:05 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-03 00:25:05 - INFO - Dataset loaded successfully.
+2024-12-03 00:25:05 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-03 00:25:05 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-03 00:25:05 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-03 00:25:05 - INFO - Memory usage of each column:
+2024-12-03 00:25:05 - INFO - Index: 	132.00 bytes
+2024-12-03 00:25:05 - INFO - PassengerId: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - Survived: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - Pclass: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - Name: 	31970.00 bytes
+2024-12-03 00:25:05 - INFO - Sex: 	22458.00 bytes
+2024-12-03 00:25:05 - INFO - Age: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - SibSp: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - Parch: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - Ticket: 	23356.00 bytes
+2024-12-03 00:25:05 - INFO - Fare: 	3344.00 bytes
+2024-12-03 00:25:05 - INFO - Cabin: 	15294.00 bytes
+2024-12-03 00:25:05 - INFO - Embarked: 	20900.00 bytes
+2024-12-03 00:25:05 - INFO - The data type of each column in the dataset:
+2024-12-03 00:25:05 - INFO - PassengerId: 	int64
+2024-12-03 00:25:05 - INFO - Survived: 	int64
+2024-12-03 00:25:05 - INFO - Pclass: 	int64
+2024-12-03 00:25:05 - INFO - Name: 	object
+2024-12-03 00:25:05 - INFO - Sex: 	object
+2024-12-03 00:25:05 - INFO - Age: 	float64
+2024-12-03 00:25:05 - INFO - SibSp: 	int64
+2024-12-03 00:25:05 - INFO - Parch: 	int64
+2024-12-03 00:25:05 - INFO - Ticket: 	object
+2024-12-03 00:25:05 - INFO - Fare: 	float64
+2024-12-03 00:25:05 - INFO - Cabin: 	object
+2024-12-03 00:25:05 - INFO - Embarked: 	object
+2024-12-03 00:25:05 - INFO - Missing values in the dataset:
+2024-12-03 00:25:05 - INFO - PassengerId: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Survived: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Pclass: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Name: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Sex: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Age: 	86 (20.57%)
+2024-12-03 00:25:05 - INFO - SibSp: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Parch: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Ticket: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Fare: 	1 (0.24%)
+2024-12-03 00:25:05 - INFO - Cabin: 	327 (78.23%)
+2024-12-03 00:25:05 - INFO - Embarked: 	0 (0.00%)
+2024-12-03 00:25:05 - INFO - Information about missing values in the Age column:
+2024-12-03 00:25:05 - INFO - Total missing values: 86
+2024-12-03 00:25:05 - INFO - Percentage of missing values; 20.57%
+2024-12-03 00:25:07 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-03 00:25:07 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-03 01:03:34 - INFO - Starting dataset loading process...
+2024-12-03 01:03:34 - INFO - File found at: ./data/titanic.csv.
+2024-12-03 01:03:34 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-03 01:03:34 - INFO - Dataset loaded successfully.
+2024-12-03 01:03:34 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-03 01:03:34 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-03 01:03:34 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-03 01:03:34 - INFO - Memory usage of each column:
+2024-12-03 01:03:34 - INFO - Index: 	132.00 bytes
+2024-12-03 01:03:34 - INFO - PassengerId: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - Survived: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - Pclass: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - Name: 	31970.00 bytes
+2024-12-03 01:03:34 - INFO - Sex: 	22458.00 bytes
+2024-12-03 01:03:34 - INFO - Age: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - SibSp: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - Parch: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - Ticket: 	23356.00 bytes
+2024-12-03 01:03:34 - INFO - Fare: 	3344.00 bytes
+2024-12-03 01:03:34 - INFO - Cabin: 	15294.00 bytes
+2024-12-03 01:03:34 - INFO - Embarked: 	20900.00 bytes
+2024-12-03 01:03:34 - INFO - The data type of each column in the dataset:
+2024-12-03 01:03:34 - INFO - PassengerId: 	int64
+2024-12-03 01:03:34 - INFO - Survived: 	int64
+2024-12-03 01:03:34 - INFO - Pclass: 	int64
+2024-12-03 01:03:34 - INFO - Name: 	object
+2024-12-03 01:03:34 - INFO - Sex: 	object
+2024-12-03 01:03:34 - INFO - Age: 	float64
+2024-12-03 01:03:34 - INFO - SibSp: 	int64
+2024-12-03 01:03:34 - INFO - Parch: 	int64
+2024-12-03 01:03:34 - INFO - Ticket: 	object
+2024-12-03 01:03:34 - INFO - Fare: 	float64
+2024-12-03 01:03:34 - INFO - Cabin: 	object
+2024-12-03 01:03:34 - INFO - Embarked: 	object
+2024-12-03 01:03:34 - INFO - Missing values in the dataset:
+2024-12-03 01:03:34 - INFO - PassengerId: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Survived: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Pclass: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Name: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Sex: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Age: 	86 (20.57%)
+2024-12-03 01:03:34 - INFO - SibSp: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Parch: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Ticket: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Fare: 	1 (0.24%)
+2024-12-03 01:03:34 - INFO - Cabin: 	327 (78.23%)
+2024-12-03 01:03:34 - INFO - Embarked: 	0 (0.00%)
+2024-12-03 01:03:34 - INFO - Information about missing values in the Age column:
+2024-12-03 01:03:34 - INFO - Total missing values: 86
+2024-12-03 01:03:34 - INFO - Percentage of missing values; 20.57%
+2024-12-03 01:03:36 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-03 01:03:36 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-03 02:15:24 - INFO - Starting dataset loading process...
+2024-12-03 02:15:24 - INFO - File found at: ./data/titanic.csv.
+2024-12-03 02:15:24 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-03 02:15:24 - INFO - Dataset loaded successfully.
+2024-12-03 02:15:24 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-03 02:15:24 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-03 02:15:24 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-03 02:15:24 - INFO - Memory usage of each column:
+2024-12-03 02:15:24 - INFO - Index: 	132.00 bytes
+2024-12-03 02:15:24 - INFO - PassengerId: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - Survived: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - Pclass: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - Name: 	31970.00 bytes
+2024-12-03 02:15:24 - INFO - Sex: 	22458.00 bytes
+2024-12-03 02:15:24 - INFO - Age: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - SibSp: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - Parch: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - Ticket: 	23356.00 bytes
+2024-12-03 02:15:24 - INFO - Fare: 	3344.00 bytes
+2024-12-03 02:15:24 - INFO - Cabin: 	15294.00 bytes
+2024-12-03 02:15:24 - INFO - Embarked: 	20900.00 bytes
+2024-12-03 02:15:24 - INFO - The data type of each column in the dataset:
+2024-12-03 02:15:24 - INFO - PassengerId: 	int64
+2024-12-03 02:15:24 - INFO - Survived: 	int64
+2024-12-03 02:15:24 - INFO - Pclass: 	int64
+2024-12-03 02:15:24 - INFO - Name: 	object
+2024-12-03 02:15:24 - INFO - Sex: 	object
+2024-12-03 02:15:24 - INFO - Age: 	float64
+2024-12-03 02:15:24 - INFO - SibSp: 	int64
+2024-12-03 02:15:24 - INFO - Parch: 	int64
+2024-12-03 02:15:24 - INFO - Ticket: 	object
+2024-12-03 02:15:24 - INFO - Fare: 	float64
+2024-12-03 02:15:24 - INFO - Cabin: 	object
+2024-12-03 02:15:24 - INFO - Embarked: 	object
+2024-12-03 02:15:24 - INFO - Missing values in the dataset:
+2024-12-03 02:15:24 - INFO - PassengerId: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Survived: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Pclass: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Name: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Sex: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Age: 	86 (20.57%)
+2024-12-03 02:15:24 - INFO - SibSp: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Parch: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Ticket: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Fare: 	1 (0.24%)
+2024-12-03 02:15:24 - INFO - Cabin: 	327 (78.23%)
+2024-12-03 02:15:24 - INFO - Embarked: 	0 (0.00%)
+2024-12-03 02:15:24 - INFO - Information about missing values in the Age column:
+2024-12-03 02:15:24 - INFO - Total missing values: 86
+2024-12-03 02:15:24 - INFO - Percentage of missing values; 20.57%
+2024-12-03 02:15:25 - INFO - The minimum age in the dataset: 0.17 and the maximum age is 76.0.
+2024-12-03 02:15:25 - INFO - Creating Age Groups '0-20', '20-40', '40-60', '60-80'
+2024-12-03 12:12:33 - INFO - Number of missing values in the Age column: 0
+2024-12-03 13:41:57 - INFO - Starting dataset loading process...
+2024-12-03 13:41:57 - INFO - File found at: ./data/titanic.csv.
+2024-12-03 13:41:57 - INFO - Dataset successfully loaded from: ./data/titanic.csv.
+2024-12-03 13:41:57 - INFO - Dataset loaded successfully.
+2024-12-03 13:41:58 - INFO - The loaded dataset has 418 rows and 12 columns.
+2024-12-03 13:41:58 - INFO - Columns of the dataset: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+2024-12-03 13:41:58 - INFO - Total memory usage of the dataset: 134.29 KB
+2024-12-03 13:41:58 - INFO - Memory usage of each column:
+2024-12-03 13:41:58 - INFO - Index: 	132.00 bytes
+2024-12-03 13:41:58 - INFO - PassengerId: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - Survived: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - Pclass: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - Name: 	31970.00 bytes
+2024-12-03 13:41:58 - INFO - Sex: 	22458.00 bytes
+2024-12-03 13:41:58 - INFO - Age: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - SibSp: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - Parch: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - Ticket: 	23356.00 bytes
+2024-12-03 13:41:58 - INFO - Fare: 	3344.00 bytes
+2024-12-03 13:41:58 - INFO - Cabin: 	15294.00 bytes
+2024-12-03 13:41:58 - INFO - Embarked: 	20900.00 bytes
+2024-12-03 13:41:58 - INFO - The data type of each column in the dataset:
+2024-12-03 13:41:58 - INFO - PassengerId: 	int64
+2024-12-03 13:41:58 - INFO - Survived: 	int64
+2024-12-03 13:41:58 - INFO - Pclass: 	int64
+2024-12-03 13:41:58 - INFO - Name: 	object
+2024-12-03 13:41:58 - INFO - Sex: 	object
+2024-12-03 13:41:58 - INFO - Age: 	float64
+2024-12-03 13:41:58 - INFO - SibSp: 	int64
+2024-12-03 13:41:58 - INFO - Parch: 	int64
+2024-12-03 13:41:58 - INFO - Ticket: 	object
+2024-12-03 13:41:58 - INFO - Fare: 	float64
+2024-12-03 13:41:58 - INFO - Cabin: 	object
+2024-12-03 13:41:58 - INFO - Embarked: 	object
+2024-12-03 13:41:58 - INFO - Missing values in the dataset:
+2024-12-03 13:41:58 - INFO - PassengerId: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Survived: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Pclass: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Name: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Sex: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Age: 	86 (20.57%)
+2024-12-03 13:41:58 - INFO - SibSp: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Parch: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Ticket: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Fare: 	1 (0.24%)
+2024-12-03 13:41:58 - INFO - Cabin: 	327 (78.23%)
+2024-12-03 13:41:58 - INFO - Embarked: 	0 (0.00%)
+2024-12-03 13:41:58 - INFO - Information about missing values in the Age column:
+2024-12-03 13:41:58 - INFO - Total missing values: 86
+2024-12-03 13:41:58 - INFO - Percentage of missing values; 20.57%
